@@ -1,9 +1,14 @@
-#I think this might need import os
+import os
 
 def main() -> None:
     print("Hello from file-sort!")
 
-    downloads = #insert downloads directory path here
+    downloads = "/home/simon/Downloads/"
+    
+    files = os.listdir(downloads)
+
+    for file in files:
+        print(file)
 
     extensions = [
         ".txt",
@@ -16,6 +21,6 @@ def main() -> None:
 
     #pattern should be a filename split at the dot?
     #then moved to *relevant directory*
-    for file in downloads:
-        case pattern:
-            pass
+    #for file in downloads:
+    #    case pattern:
+    #        pass
