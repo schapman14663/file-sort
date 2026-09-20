@@ -1,7 +1,7 @@
 # FILE SORT
 A short program to sort files from my downloads folder into other folders in my home directory. 
 
-19 Sep 26
+## 19 Sep 26
 This should be a pretty short project, but I should also make notes.
 At the moment, I wake up very early in the morning to go to the gym
 and then I work a fairly normal 9 - 5 style shift with the exception
@@ -26,4 +26,11 @@ use the same file type (.pdf documents for example) but this is
 likely to be a case of me needing to rename files to mark them as 
 books and documents and then sorting them that way.
 
-
+## 20 Sep 2026
+Okay so I basically have this done. I got a working version made but
+it had more nesting than I like, so I removed part of that nesting 
+into a move_file function. It's not perfectly finished because I
+should still implement an error handling procedure to prompt me to
+update the dictionary that contains the directories and file
+extensions when I have a file that isn't already there so can't be
+sorted. 
