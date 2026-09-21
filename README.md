@@ -34,3 +34,15 @@ should still implement an error handling procedure to prompt me to
 update the dictionary that contains the directories and file
 extensions when I have a file that isn't already there so can't be
 sorted. 
+
+## 21 Sep 2026
+It occurs to me that I could list the Downloads directory again to
+check if the file has actually moved. So I've implemented that 
+functionality. This should allow me to, as above, get notified if
+I need to update the script.
+
+I have also updated the script to use to not deprecated subprocess 
+module, and to use a scandir() method so I can skip directories,
+which I will continue to sort manually. 
+
+So for now, I can consider this project done.
